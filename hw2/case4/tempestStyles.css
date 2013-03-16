@@ -1,0 +1,117 @@
+/*
+ *  The tempest - Stylesheet
+ *  23 set 2012
+ *
+ *	Jeanderson Barros Candido
+ */
+body {
+  margin: 0px auto;
+  line-height: 1.5em;
+  width: 880px;
+  font-family: sans-serif, sans;
+}
+
+header {
+  display: block;
+  width: 100%;
+  margin: 0px auto 10px;
+}
+
+nav {
+  display: block;
+  float: inherit;
+}
+
+nav ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+nav h2 {
+  font-size: 1em;
+  font-weight: lighter;
+  margin: 0px;
+}
+
+nav ul li {
+  display: block;
+  width: 185px;
+  color: black;
+  text-indent: 10px;
+  margin-bottom: 2px;
+  line-height: 1.5em;
+}
+
+section {
+  display: block;
+  width: 600px;
+  float: left;
+  margin-left: 20px;
+}
+
+section h1 {
+  font-size: 1.8em;
+  font-weight: normal;
+  clear: left;
+  padding-top: 5px;
+}
+
+section h2 {
+  font-size: 1.2em;
+  font-weight: normal;
+}
+
+section ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px 0px 10px 0px;
+}
+
+section ul li {
+  font-size: 1em;
+}
+
+footer {
+  display: block;
+  width: inherit;
+  clear: left;
+  font-size: 0.9em;
+  text-decoration: small-caps;
+  text-align: center;
+  border-top: 1px solid;
+}
+
+img {
+  border-width: 0px;
+}
+
+aside {
+  margin: 5cm;
+}
+
+aside nav {
+  display: block;
+  width: 100%;
+  text-align: right;
+}
+
+aside nav ul {
+  display: block;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  background-color: black;
+}
+
+aside nav ul li {
+  display: block;
+  text-align: center;
+  width: 24%;
+  float: left;
+  color: black;
+}
+
+article p {
+  text-align: left;
+  margin-left: 20px;
+}

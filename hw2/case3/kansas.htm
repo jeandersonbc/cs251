@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<!--
+      New Perspectives on HTML
+      Tutorial 2
+      Case Problem 3
+
+      ElectionWeb Kansas Page
+      Author:  Jeanderson Candido
+      Date:    19 set 12
+
+
+      Filename:         kansas.htm
+      Supporting files: ewlogo.png, ewstyles.css, kansasmap.png, modernizr-1.5.js
+   -->
+
+<meta name="author" content="Jeanderson Candido" />
+<meta name="keywords" content="Kansas, elections" />
+
+<meta charset="UTF-8" />
+<title>Kansas Congressional Elections</title>
+
+<script src="modernizr-1.5.js"></script>
+<link href="ewstyles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<header>
+		<a href="http://www.kssos.org/elections/elections_statistics.html"
+			rel="external" target="new"> <img src="ewlogo.png"
+			alt="ElectionWeb" /></a>
+	</header>
+	<nav>
+		<h2>News Sources</h2>
+		<ul>
+			<li><a href="http://news.yahoo.com/" rel="external">Yahoo!
+					News</a></li>
+			<li><a href="http://www.foxnews.com/" rel="external">FOX
+					News</a></li>
+			<li><a href="http://www.cnn.com/" rel="external">CNN</a></li>
+			<li><a href="http://www.nbcnews.com" rel="external">MSNBC</a></li>
+			<li><a href="http://news.google.com/" rel="external">Google
+					News</a></li>
+			<li><a href="http://www.nytimes.com/" rel="external">New
+					York Times</a></li>
+			<li><a href="http://digg.com" rel="external">digg</a></li>
+			<li><a href="http://www.washingtonpost.com" rel="external">Washington
+					Post</a></li>
+			<li><a href="http://www.latimes.com" rel="external">LATimes</a></li>
+			<li><a href="http://www.reuters.com" rel="external">Reuters</a></li>
+			<li><a href="http://abcnews.go.com" rel="external">ABCNews</a></li>
+			<li><a href="http://abcnews.go.com/" rel="external">USA
+					Today</a></li>
+		</ul>
+	</nav>
+
+	<section>
+		<h1>Kansas Statewide Races</h1>
+		<p>The Kansas Election polls have officially been closed now for
+			two hours and results are being constantly updated. As of 10pm with
+			65% of the ballots counted, leaders in the state-wide races for
+			governor and senator are as follows:</p>
+		<h2>Governor (65% reporting)</h2>
+		<ul>
+			<li>Charles Young (R) - 371,885 (47%)</li>
+			<li>Karen Drew (D) - 356,060 (45%)</li>
+			<li>Barry Davis (I) - 39,562 (5%)</li>
+		</ul>
+		<h2>U.S. Senate (65% reporting)</h2>
+		<ul>
+			<li>&#10004; Helen Sanchez (D) - 387,710 (49%)</li>
+			<li>Linda Epstein (R) - 348,147 (44%)</li>
+			<li>Hunter Ryan (I) - 47,474 (6%)</li>
+		</ul>
+		<p>
+			Get up-to-the-minute election results from the <a
+				href="http://www.kssos.org/">Secretary of State</a>.
+		</p>
+	</section>
+
+	<figure>
+		<img src="kansasmap.png" alt="Kansas" usemap="#kansasdestricts" />
+		<figcaption>Click to view congressional district results</figcaption>
+	</figure>
+	<map name="kansasdestricts">
+		<area shape="poly"
+			coords="18,10,457,16,424,54,372,56,372,99,
+			447,100,452,203,411,205,411,188,370,
+			189,325,184,326,220,267,221,270,289,6,282"
+			href="dist1.htm" target="_self" alt="District 1" />
+		<area shape="poly"
+			coords="466,14,427,57,375,59,375,99,457,99,
+			456,252,489,252,487,291,551,285,547,126,513,
+			126,491,102,522,99,531,81,510,52,527,25"
+			href="dist2.htm" target="_self" alt="District 2" />
+		<area shape="poly"
+			coords="535,83,525,106,501,105,519,127,546,123,546,90"
+			href="dist3.htm" target="_self" alt="District 3" />
+		<area shape="poly"
+			coords="276,291,273,224,330,223,328,187,408,
+			194,408,209,454,207,454,258,486,256,484,293"
+			href="dist4.htm" target="_self" alt="District 4" />
+	</map>
+
+	<footer>
+		ElectionWeb: <em>Your Source for Online Election Results</em>
+	</footer>
+
+</body>
+
+</html>

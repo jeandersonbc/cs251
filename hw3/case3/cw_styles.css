@@ -1,0 +1,140 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 3
+   Case Problem 3
+
+   Civil War History Text and Color Style
+   Author: Jeanderson Candido
+   Date:   05 oct 2012
+
+   Filename:         cw_styles.css
+   Supporting Files: cw_layout.css
+
+*/
+
+/* imports an external layout css file */
+@IMPORT url("cw_layout.css");
+
+/* BODY styles */
+body {
+  font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+}
+
+/* HEAD styles */
+body>header h1 {
+  background-color: hsl(212, 100%, 29%);
+}
+
+h1 {
+  font-family: Trebuchet MS, Helvetica, sans-serif;
+  color: hsla(212, 0%, 0%, 0.4);
+  font-weight: normal;
+  text-indent: 5px;
+  letter-spacing: 5px;
+  color: hsla(212, 0%, 0%, 0.4);
+}
+
+h2 {
+  font-family: Trebuchet MS, Helvetica, sans-serif;
+  color: hsla(212, 0%, 0%, 0.4);
+  font-weight: normal;
+  text-indent: 5px;
+  letter-spacing: 5px;
+}
+
+h3 {
+  font-family: Trebuchet MS, Helvetica, sans-serif;
+  color: hsla(212, 0%, 0%, 0.4);
+  font-weight: normal;
+  text-indent: 5px;
+  letter-spacing: 5px;
+}
+
+h4 {
+  font-family: Trebuchet MS, Helvetica, sans-serif;
+  color: hsla(212, 0%, 0%, 0.4);
+  font-weight: normal;
+  text-indent: 5px;
+  letter-spacing: 5px;
+}
+
+h5 {
+  font-family: Trebuchet MS, Helvetica, sans-serif;
+  color: hsla(212, 0%, 0%, 0.4);
+  font-weight: normal;
+  text-indent: 5px;
+  letter-spacing: 5px;
+}
+
+h6 {
+  font-family: Trebuchet MS, Helvetica, sans-serif;
+  color: hsla(212, 0%, 0%, 0.4);
+  font-weight: normal;
+  text-indent: 5px;
+  letter-spacing: 5px;
+}
+
+nav.vertical h4 {
+  color: hsla(32, 0%, 0%, 0.5);
+  text-indent: 15px;
+  font-size: 18px;
+}
+
+/* NAVIGATION styles*/
+nav.vertical {
+  background-color: hsl(32, 100%, 95%);
+}
+
+/* LIST styles */
+nav.horizontal ul {
+  font-family: Century Gothic MS, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  line-height: 20px;
+}
+
+nav.vertical li {
+  list-style-type: upper-roman;
+  line-height: 2em;
+}
+
+nav.vertical li li {
+  list-style-type: upper-alpha;
+}
+
+/* HYPERLINK Styles */
+nav.horizontal a {
+  color: hsl(212, 100%, 70%);
+  text-decoration: none;
+}
+
+nav.horizontal a:HOVER {
+  color: hsl(212, 100%, 29%);
+}
+
+nav.vertical a {
+  color: hsla(212, 100%, 29%, 0.6);
+  text-decoration: none;
+}
+
+nav.vertical a:HOVER {
+  color: hsla(212, 100%, 29%, 1.0);
+  text-decoration: underline;
+}
+
+/* SECTION styles */
+section {
+  background-color: hsl(212, 95%, 90%);
+}
+
+/* PARAGRAPH styles */
+article h2+p:FIRST-LETTER {
+  font-size: 32px;
+}
+
+footer p {
+  font-size: 10px;
+  line-height: 30px;
+  text-align: center;
+}

@@ -1,0 +1,99 @@
+/*
+   New Perspectives on HTML
+   Tutorial 3
+   Review Assignment
+
+   Sunny Acres Text and Color Styles
+   Author: Jeandrson Candido
+   Date:   03 oct 2012
+
+   Filename:         hs_styles.css
+   Supporting Files: CloisterBlack.eot, CloisterBlack.svg,
+                     CloisterBlack.ttf, CloisterBlack.woff
+
+*/
+@font-face {
+  font-family: 'CloisterBlack';
+  src: url('CloisterBlack.eot');
+  src: local('☺'), url('CloisterBlack.woff') format('woff'),
+    url('CloisterBlack.ttf') format('truetype'),
+    url('CloisterBlack.svg#cloister') format('svg');
+}
+
+/* Body style */
+body {
+  font-family: 'Trebuchet MS', Helvica, sans-serif;
+  background-color: white;
+}
+
+/* Head style */
+section h1 {
+  font-family: CloisterBlack, fantasy;
+  font-size: 2.5em;
+  font-weight: normal;
+  background-color: rgb(148, 51, 62);
+  color: white;
+  letter-spacing: 0.3em;
+  line-height: 2em;
+  text-indent: 5px;
+}
+
+section h2 {
+  background-color: rgb(182, 134, 52);
+  color: white;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: normal;
+  letter-spacing: 0.7em;
+  text-indent: 1em;
+}
+
+/* List style */
+nav ul {
+  background-color: rgb(248, 175, 175);
+  list-style-type: none;
+  line-height: 3.5em;
+  padding-left: 0px;
+  text-indent: 5px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li:FIRST-OF-TYPE {
+  text-transform: lowercase;
+  font-weight: bold;
+  font-size: 150%;
+}
+
+nav ul li:HOVER {
+  background-color: rgb(148, 51, 62);
+}
+
+nav ul li a:HOVER {
+  color: yellow;
+}
+
+section h2+ul {
+  list-style-image: url("flake.png");
+}
+
+/* Figure style */
+figure {
+  background-color: rgb(248, 175, 175);
+  text-align: center;
+  font-size: 14px;
+  font-style: italic;
+}
+
+/* Footer style */
+footer address {
+  font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+  font: 0.8em normal small-caps;
+  line-height: 4em;
+  text-align: center;
+  background-color: rgb(148, 51, 62);
+  color: white;
+  color: rgba(255, 255, 255, 0.8);
+}

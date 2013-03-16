@@ -1,0 +1,147 @@
+﻿/*
+   New Perspectives on HTML
+   Tutorial 2
+   Case Problem 2
+
+   Fiddler Style Sheet
+   Author: Tasha Juroszek 
+   Date:   3/1/2014
+
+   Filename:         fidstyles.css
+   Supporting Files: none
+
+*/
+
+/* Section Styles */
+
+body {
+margin: 0px auto;
+padding: 0px;
+line-height: 1.5em;
+width: 98%;
+max-width: 880px;
+min-width: 700px;
+font-family: Verdana, Geneva, sans-serif;
+}
+
+header {
+display: block;
+width: 100%;
+margin: 0px auto 10px;
+}
+
+nav {
+display: block;
+float: left;
+}
+
+nav ul {
+list-style-type: none;
+padding: 0px;
+margin: 0px;
+}
+
+nav h2 {
+font-size: 1em;
+font-weight: bold;
+margin: 0px;
+}
+
+nav ul li {
+display: block;
+width: 150px;
+background-color: rgb(255, 192, 192);
+color: black;
+border: 1px solid black;
+text-indent: 10px;
+margin-bottom: 2px;
+line-height: 1.5em;
+}
+
+section {
+display: block;
+width: 600px;
+float: left;
+margin-left: 20px;
+}
+
+section h1 {
+font-size: 1.8em;
+font-weight: normal;
+clear: left;
+padding-top: 5px;
+}
+
+section h2 {
+font-size: 1.2em;
+font-weight: normal;
+}
+
+section ul {
+list-style-type: none;
+padding: 0px;
+margin: 0px 0px 10px 0px;
+}
+
+section ul li {
+font-size: 1em;
+}
+
+figure {
+display: block;
+clear: left;
+width: 600px;
+margin: 0px auto;
+text-align: center;
+}
+
+figure figcaption {
+display: block;
+text-align: center;
+width: 600px;
+font-size: 0.9em;
+margin: 0px;
+font-style: italic;
+}
+
+footer {
+display: block;
+width: 100%;
+clear: left;
+margin-top: 30px;
+font-size: 0.9em;
+text-decoration: small-caps;
+text-align: center;
+color: rgb(175, 122, 122);
+border-top: 1px solid rgb(175, 122, 122);
+}
+
+img {
+border-width: 0px;
+}
+
+section nav {
+display: block;
+width: 100%;
+text-align: center;
+}
+
+section nav ul {
+display: block;
+width: 100%;
+list-style-type: none;
+padding: 0px;
+margin: 0px;
+}
+
+
+section nav ul li {
+display: block;
+text-align: center;
+width: 24%;
+float: left;
+background-color: rgb(255, 192, 192);
+color: black;
+border: 1px solid black;
+line-height: 1.5em;
+}

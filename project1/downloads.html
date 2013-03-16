@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<!--
+    =====================================================================
+                              WALSH UNIVERSITY
+                         CS 251 F12 - WEB PUBLISHING
+
+    Midterm project: Symbolrt website
+    Instructor: Dr. Scott Hampton
+
+    DEVELOPED BY:
+        Jeanderson Barros Candido
+        jeandersonbc[at]gmail.com
+
+    Date: 04-NOV-2012
+    Last Update:
+
+    DISCLAIMER:
+
+        This website was created only for academic purposes. Therefore,
+        it is not the official website from the SYMBOLRT Project.
+        All content was retrieved from the original website and can be
+        accessed on the following link:
+
+        https://sites.google.com/a/computacao.ufcg.edu.br/symbolrt/home
+
+    =====================================================================
+-->
+<html>
+
+<head>
+    <title>SYMBOLRT Homepage</title>
+
+    <!-- structural layout -->
+    <link rel="stylesheet" type="txt/css" href="layout.css"/>
+
+    <!-- appearence -->
+    <link rel="stylesheet" type="txt/css" href="styles.css"/>
+
+</head>
+<body>
+    <header>
+        <a href="./index.html">
+            <img src="./imgs/symbolrtlogo.png" alt="SYMBOLRT Logo"/>
+        </a>
+    </header>
+    <div id="main">
+
+        <!-- Navigation bar -->
+        <nav id="vertical">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#">Motivation</a></li>
+                <li><a href="./publications.html">Publications</a></li>
+                <li id="act"><a href="./downloads.html">Downloads</a></li>
+                <li><a href="#">Getting Started</a></li>
+                <li><a href="./people.html">People</a></li>
+                <li><a href="#">Documentation</a></li>
+                <li><a href="#">Support</a></li>
+            </ul>
+        </nav>
+
+        <!-- Page content composed by multiple articles -->
+        <section>
+
+            <!-- External links: UFCG, SPLab -->
+            <aside>
+                <h1>Visit also</h1>
+                <a target="new" title="SPLAB's website" href="http://splab.computacao.ufcg.edu.br/">
+                    <img src="./imgs/SPLABlogo.png" alt="SPLab Logo"/>
+                </a>
+                <a target="new" title="DSC's website" href="http://www.computacao.ufcg.edu.br/">
+                    <img src="./imgs/DSClogo.png" alt="DSC Logo"/>
+                </a>
+                <a target="new" title="UFCG's website" href="http://www.ufcg.edu.br/index1.php">
+                    <img src="./imgs/UFCGlogo.png" alt="UFCG Logo"/>
+                </a>
+            </aside>
+
+            <article id="top">Downloads</article>
+            <article>
+            <p>SYMBOLRT is open source software and is distributed under the GNU GPL license (version 3).<b> The tool is only available for 32-bit Linux.</b>
+            </p>
+            Sources are available at <a href="code.google.com/p/symbolrt" target="new">code.google.com/p/symbolrt</a> and binaries can be downloaded <a href="http://www.dsc.ufcg.edu.br/~wilker/symbolrt/SYMBOLRT_1.1.zip">here</a>.
+
+
+            <h1>Dependences</h1>
+            <ol>
+                <li>CVC3: an automatic theorem prover for Satisfiability Modulo Theories (SMT) problems used to decide on satisfiability of data guards;</li>
+                <li>jgraphx: a tool used to show the generated TIOSTS models.</li>
+                <li>XStream: a library to serialize the generated test cases to XML and back again.</li>
+            </ol>            
+            <p>If you have any trouble, visit the Support section to know how to proceed.</p>
+            </article>
+        </section>
+    </div>
+    <footer>
+        <p>Developed by Jeanderson Barros Candido.</p>
+        <p>CS 251 - FALL 12 - Web Publishing - Walsh University</p>
+    </footer>
+</body>
+
+</html>

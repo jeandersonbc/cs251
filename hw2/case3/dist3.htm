@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<!--
+      New Perspectives on HTML
+      Tutorial 2
+      Case Problem 3
+
+      ElectionWeb District 3 Page
+      Author:  Jeanderson Candido
+      Date:    19 set 12
+
+
+      Filename:         district3.htm
+      Supporting files: ewlogo.png, ewstyles.css, kansasmap.png, modernizr-1.5.js
+   -->
+
+<meta charset="UTF-8" />
+<title>Kansas Congressional Elections</title>
+
+<script src="modernizr-1.5.js"></script>
+<link href="ewstyles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<header>
+		<img src="ewlogo.png" alt="ElectionWeb" />
+	</header>
+
+	<section>
+		<nav>
+			<ul>
+				<li><a href="dist1.htm">District 1</a></li>
+				<li><a href="dist2.htm">District 2</a></li>
+				<li><a href="dist3.htm">District 3</a></li>
+				<li><a href="dist4.htm">District 4</a></li>
+			</ul>
+		</nav>
+		<h1>District 3 Results</h1>
+		<p>With 65% of the ballots counted, here are the current results
+			from District 3.</p>
+
+		<h2>District 3 Representative (65% reporting)</h2>
+		<ul>
+			<li>&#10004;Raymond Doyle (D) - 71,763 (48%)</li>
+			<li>Diane Peck (R) - 70,266 (47%)</li>
+			<li>Yolanda Burris (I) - 5,981 (4%)</li>
+		</ul>
+		<p>
+			View <a href="kansas.htm">statewide races</a>.
+		</p>
+	</section>
+
+	<figure>
+		<img src="kansasmap.png" alt="Kansas" usemap="#kansasdestricts" />
+		<figcaption>Click to view congressional district results</figcaption>
+	</figure>
+	<map name="kansasdestricts">
+		<area shape="poly"
+			coords="18,10,457,16,424,54,372,56,372,99,
+			447,100,452,203,411,205,411,188,370,
+			189,325,184,326,220,267,221,270,289,6,282"
+			href="dist1.htm" target="_self" alt="District 1" />
+		<area shape="poly"
+			coords="466,14,427,57,375,59,375,99,457,99,
+			456,252,489,252,487,291,551,285,547,126,513,
+			126,491,102,522,99,531,81,510,52,527,25"
+			href="dist2.htm" target="_self" alt="District 2" />
+		<area shape="poly"
+			coords="535,83,525,106,501,105,519,127,546,123,546,90"
+			href="dist3.htm" target="_self" alt="District 3" />
+		<area shape="poly"
+			coords="276,291,273,224,330,223,328,187,408,
+			194,408,209,454,207,454,258,486,256,484,293"
+			href="dist4.htm" target="_self" alt="District 4" />
+	</map>
+	<footer>
+		ElectionWeb: <em>Your Source for Online Election Results</em>
+	</footer>
+
+</body>
+
+</html>

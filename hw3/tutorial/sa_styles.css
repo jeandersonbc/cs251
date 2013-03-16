@@ -1,0 +1,76 @@
+/*
+	Sunny Acres Style Sheet
+	
+	Author: Jeanderson Barros Candido
+	Date:   03 oct 2012
+*/
+@font-face {
+  font-family: 'NobileRegular';
+  src: url('nobile-webfont.eot');
+  src: local('☺'), url('nobile-webfont.woff') format('woff'),
+    url('nobile-webfont.ttf') format('truetype'),
+    url('nobile-webfont.svg#webfontsKo9tqe9') format('svg');
+}
+
+/* BODY STYLES */
+body {
+  background-color: white;
+  font-family: NobileRegular, Verdana, Geneva, sans-serif;
+  line-height: 1.4em;
+}
+
+/* HEADING STYLES */
+section h1 {
+  background-color: rgb(125, 186, 240);
+  color: white;
+  font-size: 1.7em;
+  line-height: 1.4em;
+  letter-spacing: 0.4em;
+  text-indent: 1em;
+}
+
+h2 {
+  background-color: rgb(0, 165, 0);
+  color: white;
+  color: rgba(255, 255, 255, 0.8);
+  letter-spacing: 0.4em;
+  line-height: 1.4em;
+  text-indent: 1em;
+}
+
+/* Navigation List Style */
+nav ul {
+  background-color: rgb(125, 186, 240);
+  line-height: 3.5em;
+  list-style-type: none;
+  padding-left: 0.5em;
+  list-style-type: none;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li:HOVER {
+  background-color: rgb(83, 142, 213);
+}
+
+/* SECTION STYLES */
+section p.closing {
+  color: rgb(0, 165, 0);
+  text-align: right;
+}
+
+section h2+ul {
+  list-style-image: url(arrow.png);
+}
+
+/* FOOTER STYLES */
+footer address {
+  background-color: rgb(55, 102, 55);
+  color: white;
+  color: rgba(255, 255, 255, 0.8);
+  font: normal small-caps 0.8em/4em 'Times New Roman', Times, Serif;
+  text-align: center;
+}

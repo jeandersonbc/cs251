@@ -1,0 +1,125 @@
+/*
+ * CSS Appearance of SYMBOLRT Website
+ *
+ * Author: Jeanderson Barros Candido 
+ * Date:   04-NOV-2012
+ *
+ * Last Update: 05-NOV-2012
+ */
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: rgb(227,233,242);
+    word-spacing: 2px;
+}
+
+/* HEADER STYLE */
+header {
+    background-color: rgb(0,64,128);
+    border-bottom: 1px solid black;
+}
+header img {
+    padding: 60px 0px 0px 05px;
+}
+
+/* ARTICLE STYLE */
+article#top {
+    text-transform: uppercase;
+    background-color: rgba(120,150,185,0.8);
+    color:white;
+    letter-spacing:4px;
+    font-size:16pt;
+    font-weight: bold;
+    padding: 10px 10px 10px 10px;
+
+    -webkit-border-top-right-radius:2em;
+    -moz-border-top-right-radius:2em;
+    -o-border-top-right-radius:2em;
+    border-top-right-radius:2em;
+}
+article {
+    background: white;
+    padding: 20px 20px 0px 20px;
+}
+article p {
+    padding-bottom: 10px;
+}
+article ul, ol {
+    margin-left:40px;
+}
+article li {
+    font-weight: bold;
+}
+article li p, li li {
+    font-weight: normal;
+}
+article ol li {
+    font-weight: normal;
+    font-size: 11pt;
+    margin: 20px;
+    text-align: justify;
+}
+/* SIGNATURE STYLE */
+#signature {
+    font-size: 10pt;
+    padding-bottom: 10px;
+}
+
+/* NAVIGATION BAR STYLE */
+#vertical li {
+    letter-spacing: 1px;
+    padding: 8px;
+    list-style-type: none;
+    background-color: rgb(32,32,32);
+}
+#vertical li:hover {
+    border-left: 6px solid rgb(0,162,232);
+}
+li#act {
+    border-left: 6px solid rgb(0,162,232);
+}
+a {
+    text-decoration: none;
+    color: blue;
+}
+#vertical a {
+    display: block;
+    text-decoration: none;
+    color: white; 
+}
+/* INFO STYLE */
+#info {
+    padding-bottom:20px;
+    height: 150px;
+    font-style: normal;
+}
+#info img {
+    display: block;
+    width:150px;
+    height:150px;
+    float:left;
+}
+#info ul {
+    margin-left: 155px;
+}
+#info li {
+    list-style-type: none;
+    font-size:11pt;
+}
+/* ASIDE STYLE */
+aside {
+    background-color: white;
+    border: 1px dashed black;
+}
+
+aside img {
+    display:block;
+    width:150px;
+    margin: 0px auto 20px auto;
+}
+aside h1 {
+    font-size: 12pt;
+    text-align: center;
+}
+footer {
+    font-size:10pt;
+}

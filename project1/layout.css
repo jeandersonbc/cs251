@@ -1,0 +1,65 @@
+/*
+ * CSS Layout for SYMBOLRT Homepage
+ *
+ * Author: Jeanderson Barros Candido
+ * Date:   03-NOV-2012
+ *
+ */
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+header {
+    width:100%;
+    min-width: 1064px;
+    height:150px;
+}
+#main {
+    width:1164px;
+    height:850px;
+    margin-left: 20px;
+}
+nav {
+    padding-top:20px;
+    width: 175px;
+    height: 50%;
+    float: left;
+
+}
+section {
+    width:900px;
+    height:630px;
+    padding: 20px;
+    float:left;
+
+}
+aside {
+    -webkit-border-radius:2em;
+    -moz-border-radius:2em;
+    -o-border-radius:2em;
+    border-radius:2em;
+
+    width:180px;
+    height:400px;
+    float: right;
+    padding-top: 10px;
+    margin-left: 15px;
+
+}
+footer {
+    width: 1064px;
+    height: 80px;
+    margin:20px 0px 0px 20px;
+    border-top: 1px solid black;
+}
+
+article#top {
+    width: 670px;
+    margin:0px;
+}
+
+article {
+    width: 650px;
+    margin-bottom:10px;
+}
