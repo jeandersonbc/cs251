@@ -1,6 +1,4 @@
-cs251
-=====
+cs251 - Web Publishing
+======================
 
-Web Publishing class
-
-<p>Here are some pages that I created during my web publishing classes during the Fall 2012 at Walsh University</p>
+<p>Here are some websites that I developed for this class during the Fall 2012 at Walsh University</p>
