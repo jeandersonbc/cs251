@@ -11,36 +11,43 @@
    Supporting Files: green.jpg, gold.jpg
 
 */
-.spuzzle {
-    border-collapse: collapse;
+/*Spuzzle tweaks */
+
+.spuzzle, .subtable {
+    border-collapse: collapse; /*Step 11 */
 }
+
+.spuzzle td {
+    border: 5px outset gray; /*Step 12 */
+    
+}
+
 .spuzzle th {
     font-size: 8px;
-    color: gray;
+    color: gray; /*Step 13 */
 }
 .spuzzle tbody th {
-    font-size: 8px;
-    color: gray;
-    height: 40px;
+    
+    height: 40px; /*Step 14 */
 }
-.subTable {
-    border-collapse: collapse;
-    border: 5px outset gray;
-}
+
+/*Subtable tweaks */
+
 .subTable td {
-    font-size: 20px;
-    color: blue;
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    border: 1px solid black;
+    font-size: 20px; /*Step 15a */
+    color: blue; /*Step 15a */
+    width: 40px; /*Step 15b */
+    height: 40px; /*Step 15b */
+    text-align: center; /*Step 15b */
+    vertical-align: middle; /*Step 15b */
+    border: 1px solid black; /*Step 15c */
 }
 
 .goldBox td {
-    background-image: url("./gold.jpg");
-    background-position: 50% 50%;
+    background-image: url("gold.jpg");
+    background-position: 50% 50%; /*Step 16 */
 }
 .greenBox td {
-    background-image: url("./green.jpg");
-    background-position: 50% 50%;
+    background-image: url("green.jpg");
+    background-position: 50% 50%; /*Step 17 */
 }
